@@ -229,6 +229,7 @@ export var Draggable = Evented.extend({
 			});
 		}
 
+		this._moved = false;
 		this._moving = false;
 		Draggable._dragging = false;
 	}
